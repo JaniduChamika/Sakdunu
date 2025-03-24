@@ -1,0 +1,140 @@
+.wishcard {
+    /* height: 200px; */
+    /* background-color: aquamarine; */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.212);
+    background-color: white;
+}
+
+.detailswish {
+    width: fit-content;
+}
+
+.detailswish td {
+    min-width: 100px;
+    /* padding: 5px; */
+}
+
+.btn:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    transition: 500ms;
+}
+
+.heigt480 {
+    min-height: 480px;
+}
+
+.bluco {
+    background-color: rgb(0, 0, 207);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+    font-size: 18px;
+}
+
+.bluco:hover {
+    background-color: blue;
+    color: white;
+}
+
+.bluco:active {
+    background-color: rgb(0, 0, 141);
+    color: white;
+    box-shadow: none;
+}
+
+.redco {
+    background-color: rgb(209, 0, 0);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+    font-size: 18px;
+}
+
+.redco:hover {
+    background-color: red;
+    color: white;
+}
+
+.redco:active {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    box-shadow: none;
+}
+
+.selectCard {
+    background-color: rgba(127, 187, 255, 0.288);
+    box-shadow: 0px 0px 10px 5px rgba(34, 34, 34, 0.315);
+}
+
+@media (max-width:662px) {
+    .wishcard button {
+        font-size: 16px;
+    }
+}
+
+.silever {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+}
+
+.silever:hover {
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.silever:active {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    box-shadow: none;
+}
+
+.notavailablediv {
+    height: 190px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.btn-close {
+    background-image: none;
+    font-size: 20px;
+    display: flex;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+
+/* msg clsess  strat */
+
+.msgclz {
+    width: auto;
+    height: 22px;
+}
+
+.mshmyhead {
+    background-color: rgb(218, 218, 218);
+    color: black;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+.btn-close {
+    background-image: none;
+    font-size: 20px;
+    display: flex;
+}
+
+.bodyfon {
+    font-size: 13px;
+    color: black;
+}
+
+@media (min-width:768px) {
+    .addcart::after {
+        content: "Add Cart";
+    }
+    .removebtn::after {
+        content: "Remove";
+    }
+}

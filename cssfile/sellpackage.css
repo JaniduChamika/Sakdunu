@@ -1,0 +1,229 @@
+.t5 {
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.imagbox2 {
+    background-image: url("appimg//default2.jpg");
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.inputpackage input::placeholder {
+    color: white;
+}
+
+.inputpackage input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.inputpackage input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+.inputpackage input {
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.308);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.inputpackage input:focus {
+    background-color: rgba(255, 255, 255, 0.308);
+    color: white;
+}
+
+.inputpackage input:disabled {
+    background-color: rgba(255, 255, 255, 0.308);
+    color: white;
+}
+
+@media (min-width:768px) {
+    .boxpackage {
+        background-color: rgba(0, 229, 255, 0.34);
+        border-radius: 10px;
+    }
+}
+
+.inputspan {
+    height: 30px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+.inputpackage input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.inputpackage input::-webkit-outer-spin-button,
+.inputpackage input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+.inputpackage input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* .addpackagebox {} */
+
+.addpackagecard {
+    background-color: rgba(255, 255, 255, 0.637);
+    /* height: 200px; */
+    /* width: 200px; */
+}
+
+.seladdpack {
+    height: 34px;
+    width: 200px;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.308);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.seladdpack:focus {
+    box-shadow: none;
+}
+
+.seladdpack option {
+    color: black;
+}
+
+.greenco {
+    background-color: rgb(0, 151, 0);
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.233);
+}
+
+.greenco:hover {
+    background-color: rgb(0, 179, 0);
+}
+
+.greenco:active {
+    background-color: rgb(0, 126, 0);
+    box-shadow: none;
+}
+
+.addedpack {
+    background-color: rgb(0, 151, 0);
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.233);
+}
+
+.addedpack:hover {
+    background-color: rgb(0, 179, 0);
+}
+
+.addedpack:active {
+    background-color: rgb(0, 126, 0);
+    box-shadow: none;
+}
+
+.createbtn {
+    width: fit-content;
+    font-size: 18px;
+}
+
+
+/* package card  */
+
+.realcardPackage {
+    background-color: white;
+    /* height: 200px; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.realcardPackage:hover {
+    box-shadow: 0px 0px 20px 0px rgba(3, 3, 3, 0.623);
+}
+
+.realcardPackage:active {
+    box-shadow: none;
+}
+
+.addingProduct {
+    /* height: 300px; */
+    background-color: rgba(255, 255, 255, 0.445);
+    border: solid 2px white;
+    border-radius: 5px;
+    font-size: 100px;
+    min-height: 300px;
+    color: rgba(42, 44, 77, 0.527);
+}
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.peoblu {
+    background-color: rgb(0, 0, 240);
+}
+
+.peoblu:hover {
+    background-color: rgb(0, 62, 231);
+}
+
+.peoblu:active {
+    background-color: rgb(0, 0, 201);
+}
+
+.imgcard {
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    /* border: solid 1px rgba(41, 41, 41, 0.809); */
+    margin-right: auto;
+}
+
+.cardinshop {
+    border: solid 1px rgba(66, 66, 66, 0.425);
+}
+
+.ancorcolor {
+    color: black;
+}
+
+.ancorcolor:hover {
+    color: gray;
+}
+
+.seleactive {
+    background-color: rgb(56, 56, 56);
+}
+
+.cardinshop {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#priceGenerate::placeholder {
+    color: white;
+}
+
+.disView {
+    background-color: orange;
+    height: 40px;
+    width: 80px;
+    right: 0px;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+
+.transred {
+    background-color: rgba(255, 0, 0, 0.281);
+}

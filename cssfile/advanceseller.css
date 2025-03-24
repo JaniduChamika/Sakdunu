@@ -1,0 +1,270 @@
+.tabladva {
+    border-collapse: collapse;
+}
+
+.tabladva td {
+    border-bottom: solid black 0.8px;
+    height: auto;
+    font-family: unset;
+    background-color: rgba(0, 229, 255, 0.34);
+}
+
+.tabladva th {
+    background-color: rgba(0, 55, 255, 0.415);
+    height: 40px;
+    font-family: unset;
+}
+
+.tabladva tr:hover {
+    background-color: rgba(0, 0, 0, 0.548);
+    cursor: pointer;
+}
+
+.tabladva tr:active {
+    background-color: rgb(0, 0, 0);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.bluco {
+    background-color: rgb(0, 0, 196);
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+}
+
+.bluco:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+.bluco:active {
+    background-color: rgb(0, 0, 167);
+    box-shadow: none;
+}
+
+.bluco:disabled {
+    background-color: rgb(112, 112, 112);
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+}
+
+.silever {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+}
+
+.silever:hover {
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.silever:active {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    box-shadow: none;
+}
+
+.redco {
+    background-color: rgb(209, 0, 0);
+    color: white;
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+    font-size: 18px;
+}
+
+.redco:hover {
+    background-color: red;
+    color: white;
+}
+
+.redco:active {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    box-shadow: none;
+}
+
+.smalfon {
+    font-size: 12px;
+}
+
+.imginp {
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.addvacestylecom {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: none;
+}
+
+.addvacestylecom input {
+    width: 69%;
+    height: 32px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.274);
+    color: white;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 1%;
+    border-radius: 3px;
+}
+
+.addvacestylecom button {
+    width: 30%;
+    height: 32px;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.addvacestylecom select {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.274);
+    margin-top: auto;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.addvacestylecom option {
+    color: white;
+    background-color: rgb(0, 0, 197);
+}
+
+.addnewbtn {
+    height: 34px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.353);
+}
+
+.addnewbtn:active {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.353);
+}
+
+.addbtncol {
+    background-color: rgb(0, 0, 193);
+}
+
+.addbtncol:active {
+    background-color: rgb(0, 0, 145);
+}
+
+.addnew {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.addnew ::placeholder {
+    color: white;
+}
+
+.addbtn {
+    background-color: rgb(0, 155, 5);
+}
+
+.addbtn:active {
+    background-color: rgb(0, 110, 4);
+}
+
+.btn-close {
+    color: black;
+}
+
+#subcaterBox .outlinbtn {
+    border: solid 2px white;
+    color: white;
+}
+
+#subcaterBox .outlinbtn:hover {
+    border: solid 2px white;
+    background-color: white;
+    color: black;
+}
+
+#subcaterBox .outlinbtn:active {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+#subcaterBox .outlinbtn:focus {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+#subcaterBox .btn-check:checked+.btn-outline-primary,
+#subcaterBox .btn-check:active+.btn-outline-primary {
+    color: #fff;
+    background-color: #0029dd;
+    border-color: #0029dd;
+}
+
+#subcaterBoxrename .outlinbtn {
+    border: solid 1px rgba(0, 0, 0, 0.459);
+    color: black;
+}
+
+#subcaterBoxrename .outlinbtn:hover {
+    border: solid 1px rgba(0, 0, 0, 0.459);
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
+
+#subcaterBoxrename .outlinbtn:active {
+    border: solid 1px rgba(0, 0, 0, 0.459);
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+
+#subcaterBoxrename .outlinbtn:focus {
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+#subcaterBoxrename .btn-check:checked+.btn-outline-primary,
+#subcaterBoxrename .btn-check:active+.btn-outline-primary {
+    color: #fff;
+    background-color: #008f00;
+    border-color: #008f00;
+}
+
+.inputpackage input {
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.308);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.inputpackage textarea {
+    background-color: rgba(255, 255, 255, 0.308);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.inputpackage textarea:focus,
+.inputpackage textarea:active {
+    background-color: rgba(255, 255, 255, 0.308);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}

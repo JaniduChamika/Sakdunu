@@ -1,0 +1,57 @@
+.footsub {
+    padding-top: 20px;
+    height: auto;
+}
+
+.footsub * {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.footco {
+    background-color: #001eb1;
+    box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.164);
+}
+
+.txle {
+    text-align: left;
+    display: block;
+    padding-left: 0px;
+    width: fit-content;
+}
+
+@media (min-width:962px) {
+    .txle {
+        padding-left: 10%;
+    }
+}
+
+.fallow {
+    /* background-color: #00078e; */
+    color: white;
+}
+
+.fallow span {
+    font-size: 25px;
+}
+
+.fallow h6 {
+    font-size: 20px;
+}
+
+.cen {
+    text-align: center;
+}
+
+.wit {
+    color: white;
+}
+
+.lastco {
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+.heigt480 {
+    min-height: 550px;
+}

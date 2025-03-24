@@ -1,0 +1,611 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+@font-face {
+    font-family: "bahn";
+    src: url("fonts//ARIALNOVA.TTF");
+}
+
+@font-face {
+    font-family: "bahnbold";
+    src: url("fonts//ARIALNOVA-BOLD.TTF");
+}
+
+* {
+    font-family: "bahn";
+}
+
+.fw-bold {
+    font-family: "bahnbold";
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.319);
+    text-align: center;
+    z-index: 10;
+    position: fixed;
+    transition: top 0.3s;
+}
+
+.hed2 {
+    overflow: hidden;
+    background-color: #001eb1;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    height: 35px;
+    padding: auto;
+    position: fixed;
+    margin-top: 50px;
+    z-index: 9;
+}
+
+.hed2option {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+@media (max-width:435px) {
+    .hed2option {
+        width: 85%;
+    }
+}
+
+
+/* 
+.hed2option button {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 33%;
+}
+
+.hed2option button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.hed2option button:active {
+    background-color: rgb(233, 233, 233);
+} */
+
+.hed2optionbtn {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 25%;
+}
+
+.hed2optionbtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.hed2optionbtn:active {
+    background-color: rgb(233, 233, 233);
+}
+
+@media (min-width:768px) {
+    .hed2optionbtn {
+        width: 33%;
+        font-size: 17px;
+    }
+}
+
+.activehead {
+    color: cyan;
+}
+
+.logo {
+    height: 100%;
+    padding: 5px;
+}
+
+.logo2 {
+    height: 100%;
+    padding: 12px;
+}
+
+.headObox .row * {
+    height: 35px;
+    outline: none;
+}
+
+.hei100 {
+    height: 100%;
+}
+
+.M-LR-A {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchsel {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid 1px #00066f;
+}
+
+
+/* .searchsel option {
+    height: 100px;
+} */
+
+.searchmain {
+    width: 100%;
+    background-color: white;
+    outline: none;
+    padding-left: 10px;
+    border: solid 1px #00066f;
+}
+
+.fomclz {
+    width: 85%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* background-color: #00044f; */
+}
+
+.cart {
+    width: auto;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 30px;
+    border: none;
+    height: 100%;
+    display: flex;
+    padding: 0px;
+}
+
+.cart:hover {
+    font-size: 33px;
+    color: rgb(0, 157, 255);
+}
+
+.cart:active {
+    font-size: 30px;
+    color: #00044f;
+}
+
+.searcbtn {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+    border: solid 1px #00066f;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition-duration: 400ms;
+}
+
+.searcbtn:hover {
+    background-color: #0024d8;
+    color: white;
+}
+
+.searcbtn:active {
+    background-color: #000675;
+    color: white;
+}
+
+.pad-0 {
+    padding: 0px;
+}
+
+.wid100 {
+    width: 100%;
+}
+
+.hedimgbox {
+    height: 50px;
+    background-color: #001eb1;
+}
+
+.headObox {
+    height: 52px;
+    background-color: #001eb1;
+}
+
+.mTBauto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* left menu deval tika  */
+
+.sidenav {
+    /* height: 100%; */
+    /* width: 0;
+      position: fixed;*/
+    /* z-index: 1; */
+    /* top: 0;
+      left: 0;  */
+    /* background-color: rgb(245, 245, 245); */
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+    margin-top: 0px;
+    padding-top: 0px;
+    transition-duration: 0.4s;
+    width: 400px;
+}
+
+@media(max-width:668px) {
+    .sidenav {
+        width: 300px;
+    }
+}
+
+.ahead {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00066f;
+    text-decoration: underline;
+    padding: 0px 2px 2px 32px;
+}
+
+.ls {
+    margin-bottom: 100px;
+}
+
+.sidenav::-webkit-scrollbar {
+    background-color: transparent;
+    width: 12px;
+}
+
+.sidenav::-webkit-scrollbar-thumb {
+    background-color: #001eb1;
+    border-radius: 0px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* .sidenav a:hover {
+      color: #00d9f1;
+      transition-duration: 400ms;
+  } */
+
+.sidenav h5 {
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.firstsign {
+    /* margin-top: 50px; */
+    width: 100%;
+    border: none;
+    background-color: #001eb1;
+    color: white;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.othermain {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-align: left;
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.othermain h4 i {
+    font-size: 30px;
+}
+
+.othermain h4:hover {
+    color: #00d9f1;
+    transition-duration: 400ms
+}
+
+.activemy {
+    background-color: #001eb1;
+}
+
+.activemy h4 {
+    color: white;
+}
+
+
+/* 
+  .sidenav h5 i:hover {
+      color: #00d9f1;
+      transition-duration: 400ms;
+  } */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.sidemenubtn {
+    float: left;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
+
+.sidemenubtn:hover {
+    color: rgb(62, 229, 255);
+    transition-duration: 400ms;
+}
+
+.sidemenubtn:active {
+    color: rgb(0, 2, 110);
+    /* font-weight: bold; */
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:991.98px) {
+    /* .searchsel {
+          width: 100%;
+      } */
+    .searchmain {
+        width: 100%;
+    }
+    .fomclz {
+        width: 85%;
+    }
+}
+
+@media(max-width:767.98px) {
+    .hed2option button {
+        font-size: 20px;
+    }
+    /* .sidenav {
+          margin-top: ;
+      } */
+    .hed2 {
+        margin-top: 98px;
+    }
+}
+
+@media(max-width:567.98px) {
+    .hed2option button {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:468px) {
+    .hed2 {
+        height: 35px;
+    }
+    .searcbtn {
+        font-size: 13px;
+        /* width: auto; */
+    }
+    /* .cart {
+          display: none;
+      } */
+}
+
+
+/* sidemenu  */
+
+.accordion-item {
+    border-bottom: white;
+    margin-bottom: 0px;
+}
+
+.subcontent {
+    margin-left: 15px;
+}
+
+.accordion-button {
+    height: 50px;
+    background-color: transparent;
+    transition: color none, background-color none, border-color none, box-shadow none, border-radius 0.15s ease;
+    color: rgb(0, 0, 0);
+    background-image: none;
+}
+
+.accordion-button:hover {
+    color: #00d9f1;
+    transition-duration: 400ms;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.accordion-button:active {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+.accordion-button::after {
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::before {
+    background-image: url("appimg//smple-down.svg");
+    transform: rotate(0deg);
+}
+
+.accordion-button::before {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1rem;
+    margin-left: 0px;
+    background-image: url("appimg//smple-down.svg");
+    content: "";
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion-body {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    color: white;
+}
+
+.bthead {
+    padding-left: 0px;
+}
+
+.bthead:not(.collapsed)::before {
+    background-image: none;
+    transform: rotate(0deg);
+}
+
+
+/* .bthead h4 :hover {
+      color: #00d9f1;
+      transition-duration: 400ms
+  } */
+
+.bthead::before {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0px;
+    background-image: none;
+    content: "";
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.blucohead {
+    background-color: #001eb1;
+}
+
+.bthead:not(.collapsed)::after {
+    background-image: url("appimg//smple-down.svg");
+    transform: rotate(0deg);
+}
+
+.bthead::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1rem;
+    margin-left: 0px;
+    background-image: url("appimg//smple-down.svg");
+    content: "";
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.trans {
+    background-color: transparent;
+}
+
+.mattop {
+    padding-top: 135px;
+}
+
+@media (min-width:767px) {
+    .mattop {
+        padding-top: 83px;
+    }
+}
+
+.heigt480 {
+    min-height: 480px;
+}
+
+@media (min-width:768px) {
+    .wishclz::after {
+        content: "Wishlist";
+    }
+    .packageclz::after {
+        content: "Package";
+    }
+    .notoficationclz::after {
+        content: "Notification";
+    }
+}
+
+.silever {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+}
+
+.silever:hover {
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.silever:active {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    box-shadow: none;
+}

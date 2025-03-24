@@ -1,0 +1,398 @@
+.bodyimg {
+    background-image: url("appimg//bac3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "bahn";
+    src: url("fonts//ARIALNOVA.TTF");
+}
+
+* {
+    font-family: "bahn";
+}
+
+.box1 {
+    width: 90%;
+    /* background-color: aqua; */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.load {
+    width: 100%;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.checkbox {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.checkbox label {
+    color: white;
+}
+
+.che {
+    margin-left: 10px;
+    outline: none;
+    color: rgb(0, 0, 172);
+}
+
+.logo {
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    background-image: url("baclogoimg//logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.foggot {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.foggot:hover {
+    text-decoration: underline;
+    color: rgb(231, 231, 231);
+}
+
+.box2 {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hrwid {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-top: 2px solid white;
+}
+
+.boxcard {
+    width: 450px;
+    height: auto;
+    /* background-color: rgb(55, 255, 0); */
+    padding-top: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.font {
+    font-family: "bahn";
+}
+
+.pa {
+    position: absolute;
+    height: 40px;
+    width: 10px;
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+.fonwhite {
+    color: white;
+}
+
+.ta {
+    text-align: center;
+}
+
+.b {
+    width: 46%;
+    height: 40px;
+    background-color: rgb(209, 94, 0);
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: none;
+    /* font-weight: bold; */
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid rgb(209, 94, 0) 2px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.247);
+    /* jfose */
+}
+
+.b:active {
+    background: rgb(209, 94, 0);
+    /* border: solid rgb(0, 55, 255) 3px; */
+    box-shadow: none;
+}
+
+.b3 {
+    width: 90%;
+    height: 40px;
+    background-color: rgb(0, 12, 243);
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.247);
+    border: none;
+    /* font-weight: bold; */
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 243, 0.741) 2px;
+    /* jfose */
+}
+
+.b3:active {
+    background: rgb(0, 53, 243);
+    /* border: solid rgb(0, 20, 243) 3px; */
+    box-shadow: none;
+}
+
+.b2 {
+    width: 80%;
+    height: 40px;
+    background-color: rgb(0, 199, 17);
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.247);
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid rgb(0, 199, 17) 2px;
+    /* jiodwaace */
+}
+
+.b2:active {
+    background: rgb(0, 199, 17);
+    /* border: solid rgb(1, 187, 1) 3px; */
+    box-shadow: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.646);
+    opacity: 0.9;
+}
+
+.i {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    outline: none;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom: white solid 2px;
+    font-size: 18px;
+}
+
+.i:focus {
+    border-bottom: rgb(0, 42, 255) solid 2px;
+}
+
+.erro {
+    color: rgb(221, 0, 0);
+    font-family: "Sitka Banner";
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.errobox {
+    margin-bottom: 0px;
+    height: 17px;
+    text-align: left;
+}
+
+@media(min-width:992px) {
+    /* body {
+        background-image: url("baclogoimg//bac2.png");
+    } */
+    .logo {
+        width: 50%;
+        margin-top: 90px;
+        height: 300px;
+    }
+    .box1 {
+        width: 95%;
+        margin-top: 100px;
+        /* background-image: url("baclogoimg//c2.jpg"); */
+        /* background-repeat: no-repeat;
+        background-size: cover; */
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.299);
+    }
+    .box2 {
+        margin-top: 0px;
+        width: 50%;
+        height: 500px;
+        /* background-image: url("appimg//pbimg.jpg"); */
+        /* background-repeat: no-repeat;
+        background-size: cover; */
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .boxcard {
+        width: 450px;
+        margin-top: 20px;
+    }
+    .b {
+        display: block;
+        background: linear-gradient(to right, rgb(209, 94, 0) 50%, rgba(255, 255, 255, 0) 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+    }
+    .b:hover {
+        background-position: left bottom;
+    }
+    .b3 {
+        display: block;
+        background: linear-gradient(to right, rgb(0, 20, 243) 50%, rgba(255, 255, 255, 0) 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+    }
+    .b3:hover {
+        background-position: left bottom;
+    }
+    .b2 {
+        display: block;
+        background: linear-gradient(to right, rgb(0, 199, 17) 50%, rgba(255, 255, 255, 0) 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+    }
+    .b2:hover {
+        background-position: left bottom;
+    }
+}
+
+@media(min-width:1282px) {
+    .box1 {
+        width: 80%;
+    }
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.bluco {
+    background-color: rgb(0, 0, 196);
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.233);
+    color: white;
+}
+
+.bluco:hover {
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+.bluco:active {
+    background-color: rgb(0, 0, 167);
+    box-shadow: none;
+    color: white;
+}
+
+.silever {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+}
+
+.silever:hover {
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.silever:active {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    box-shadow: none;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.outbtn {
+    border: solid 1px silver;
+    transition-duration: 300ms;
+}
+
+.outbtn:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+.outbtn:active {
+    background-color: rgb(124, 124, 124);
+    color: white;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.resetErro {
+    font-size: 10px;
+    color: rgb(214, 0, 0);
+}
+
+
+/* msg clsess  strat */
+
+.msgclz {
+    width: auto;
+    height: 22px;
+}
+
+.mshmyhead {
+    background-color: rgb(236, 236, 236);
+    color: black;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+.btn-close {
+    background-image: none;
+    font-size: 20px;
+    display: flex;
+}
+
+.bodyfon {
+    font-size: 11px;
+    color: black;
+}

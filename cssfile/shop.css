@@ -1,0 +1,511 @@
+   /* headbar ekata adala tika avasan ve  */
+   
+   @font-face {
+       font-family: "bahn";
+       src: url("fonts//ARIALNOVA.TTF");
+   }
+   
+   .pd10 {
+       padding: 10px;
+   }
+   
+   @media(min-width:991.98px) {
+       .pd10 {
+           padding-bottom: 0px;
+       }
+   }
+   
+   .un {
+       display: flex;
+   }
+   
+   .pd10cato {
+       padding: 5px
+   }
+   
+   .pd5cato {
+       padding: 5px;
+   }
+   
+   .desshort {
+       height: 60px;
+       display: flex;
+       font-weight: bold;
+   }
+   
+   .pd190sanpl {
+       padding: 10px;
+   }
+   
+   .flexdis {
+       display: flex;
+   }
+   
+   .b1 {
+       width: 100%;
+   }
+   
+   .mtb-a {
+       margin-top: auto;
+       margin-bottom: auto;
+   }
+   
+   .tx-aling {
+       text-align: center;
+   }
+   
+   .hedrow {
+       border: solid 1px black;
+       display: inline-block;
+       height: 3px;
+       /* white-space: nowrap; */
+       width: 95%;
+       border-radius: 100%;
+   }
+   
+   @media(min-width:768.98px) {
+       .samplecard {
+           width: 30%;
+       }
+       .hedrow {
+           width: 97%;
+       }
+   }
+   
+   @media(min-width:991.98px) {
+       .samplecard {
+           width: 20%;
+       }
+   }
+   /* right side menu  */
+   /* header {
+    margin: 0;
+    width: 100%;
+    background-color: #FF7900;
+    position: fixed;
+    height: 60px!important;
+    border-bottom: 2px solid #cc6000;
+    z-index: 9;
+} */
+   
+   .sidenavright {
+       height: 100%;
+       width: 0px;
+       position: fixed;
+       z-index: 2;
+       top: 0;
+       right: 0;
+       background-color: white;
+       overflow-x: hidden;
+       transition: 0.5s;
+       padding-top: 100px;
+       border-left: 2px solid rgb(17, 0, 255);
+   }
+   
+   .sidenavright select {
+       cursor: pointer;
+   }
+   
+   .line {
+       border-bottom: 1px solid rgb(245, 245, 245);
+       margin-left: 10px;
+       margin-right: 10px;
+       display: block;
+       transition: 0.3s;
+   }
+   
+   .subcontent table tr td {
+       height: 35px;
+   }
+   /* .sidenavright div {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        text-align: left;
+        text-decoration: none;
+        color: #000;
+        display: block;
+        transition: 0.3s;
+    } */
+   /* .sidenavright div:hover {
+        color: #313131;
+    } */
+   /* .disblock {
+    display: block;
+} */
+   
+   .filradio {
+       width: 15px;
+       height: 15px;
+   }
+   
+   .filterhead {
+       font-size: 22px;
+   }
+   
+   .filterdiv {
+       width: 300px;
+       padding-left: 20px;
+       padding-right: 20px;
+       height: auto;
+   }
+   
+   .selectfilter {
+       width: 100%;
+       height: 32px;
+       /* border-radius: 5px; */
+       outline: none;
+       border-color: rgba(0, 0, 0, 0.336);
+   }
+   /*     
+    .selectfilter option:hover {
+        background-color: #0009b8;
+    } */
+   
+   .filterprice {
+       width: 95%;
+   }
+   
+   .menuIconToggle {
+       box-sizing: border-box;
+       cursor: pointer;
+       position: fixed;
+       z-index: 10;
+       height: 100%;
+       width: fit-content;
+       top: 22px;
+       right: 15px;
+       margin-top: 70px;
+       margin-right: -20px;
+       height: 22px;
+       width: fit-content;
+       transition: all 0.3s;
+       z-index: 10;
+   }
+   
+   @media(max-width:767.98px) {
+       .menuIconToggle {
+           margin-top: 120px;
+       }
+       .sidenavright {
+           padding-top: 150px;
+       }
+   }
+   
+   .btopen {
+       border: solid 1px black;
+       /* border-radius: 5px; */
+       width: auto;
+       padding: 5px;
+       padding-right: 10px;
+       background-color: white;
+   }
+   
+   .btopen i {
+       font-size: 24px;
+   }
+   
+   .subcontent a {
+       text-decoration: none;
+       color: black;
+   }
+   
+   .btopen:hover {
+       color: #00d9f1;
+   }
+   
+   .hamb-line {
+       box-sizing: border-box;
+       position: absolute;
+       height: 3px;
+       width: 100%;
+       background-color: #000;
+       transition: all 0.25s;
+   }
+   
+   .hor {
+       transition: all 0.3s;
+       box-sizing: border-box;
+       position: relative;
+       float: left;
+       margin-top: 3px;
+   }
+   
+   .dia.p-1 {
+       position: relative;
+       box-sizing: border-box;
+       float: left;
+       transition: all .25s;
+   }
+   
+   .dia.p-2 {
+       box-sizing: border-box;
+       position: relative;
+       float: left;
+       margin-top: 3px;
+       transition: all .25s;
+   }
+   
+   input[type=checkbox]:checked~.menuIconToggle>.hor {
+       box-sizing: border-box;
+       opacity: 0;
+       transition: all .25s;
+   }
+   
+   input[type=checkbox]:checked~.menuIconToggle>.dia.p-1 {
+       box-sizing: border-box;
+       transform: rotate(135deg);
+       margin-top: 8px;
+       transition: all .25s;
+   }
+   
+   input[type=checkbox]:checked~.menuIconToggle>.dia.p-2 {
+       box-sizing: border-box;
+       transform: rotate(-135deg);
+       margin-top: -9px;
+       transition: all .25s;
+   }
+   
+   .nobr {
+       white-space: nowrap;
+   }
+   
+   .rangecss {
+       width: 90%;
+       height: 30px;
+   }
+   
+   .fon2 {
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+   }
+   
+   .price tr td label {
+       font-family: Arial, Helvetica, sans-serif;
+       cursor: pointer;
+   }
+   
+   .txrigh {
+       text-align: right;
+   }
+   
+   .smalfon td {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 12px;
+   }
+   
+   .minin {
+       font-family: Arial, Helvetica, sans-serif;
+       outline: none;
+   }
+   
+   .subpricecebtn {
+       width: 100%;
+       background-color: #001eb1;
+       color: white;
+       outline: none;
+       border: none;
+   }
+   
+   .subpricecebtn:disabled {
+       background-color: rgb(182, 182, 182);
+   }
+   
+   .subpricecebtn:hover {
+       background-color: #0009b8;
+   }
+   
+   .subpricecebtn:disabled:hover {
+       background-color: rgb(182, 182, 182);
+   }
+   
+   .subpricecebtn:active {
+       background-color: #001eb1;
+   }
+   /* end right side bar  */
+   /* cotergorise valata adala  */
+   
+   .catercard {
+       height: auto;
+       /* background-color: springgreen; */
+       /* border-radius: 10px; */
+       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.11);
+       background-color: white;
+       /* border: solid 1px rgba(117, 117, 117, 0.381); */
+   }
+   
+   .imgcatercard {
+       /* background-color: steelblue; */
+       height: auto;
+       position: relative;
+   }
+   
+   .darkbox {
+       color: #ffffff;
+       font-size: 15px;
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       border-radius: 10px;
+       left: 0px;
+       top: 0;
+       text-align: center;
+   }
+   
+   .darkbox2 {
+       color: #ffffff;
+       font-size: 15px;
+       background-color: rgba(0, 0, 0, 0.462);
+       width: 100%;
+       height: 100%;
+       border-radius: 10px;
+       left: 0px;
+       top: 0;
+       text-align: center;
+       cursor: pointer;
+   }
+   
+   .darkbox2:hover {
+       box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.748);
+   }
+   
+   .darkbox2:active {
+       box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.748);
+   }
+   
+   .imgcatercard div td {
+       font-size: 25px;
+       /* font-weight: bold; */
+   }
+   /* cards vlata deval */
+   
+   .cardshopbox {
+       /* background-color: #00d9f1; */
+       height: auto;
+       min-height: 382px;
+       background-color: white;
+       /* border: solid 1px rgba(117, 117, 117, 0.381); */
+       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.11);
+       /* border-radius: 10px; */
+       /* margin-top: 300px; */
+   }
+   
+   .cardshopbox a {
+       color: black;
+       text-decoration: none;
+   }
+   
+   .pdtop {
+       padding-top: 100px;
+   }
+   
+   @media(max-width:768px) {
+       .pdtop {
+           padding-top: 130px;
+       }
+   }
+   
+   .cardshop {
+       height: auto;
+       cursor: pointer;
+       display: grid;
+       /* background-color: rgb(19, 228, 0); */
+   }
+   
+   .cardtable {
+       margin-bottom: 0px;
+       /* margin-top: 0px; */
+       height: auto;
+   }
+   
+   .cardtable th {
+       /* font-family: Arial, Helvetica, sans-serif; */
+       height: auto;
+       /* border: solid 1px rgba(41, 41, 41, 0.258); */
+       vertical-align: text-top;
+   }
+   
+   .textop {
+       vertical-align: text-top;
+       height: 100px;
+   }
+   
+   .texbot {
+       vertical-align: bottom;
+   }
+   
+   .cardinshop {
+       /* background-color: blueviolet; */
+       width: 100%;
+       height: 100%;
+       border-radius: 5px;
+       border: solid 1px rgba(41, 41, 41, 0.258);
+       background-color: white;
+       display: grid;
+   }
+   
+   .cardinshop:hover {
+       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.415);
+   }
+   
+   .cardinshop:active {
+       box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.415);
+   }
+   
+   .imgshopcard {
+       width: 100%;
+       height: fit-content;
+       /* background-color: brown; */
+       /* border: solid 1px rgba(41, 41, 41, 0.809); */
+   }
+   
+   .imgcard {
+       border-radius: 10px;
+       height: auto;
+       width: 100%;
+       margin-left: auto;
+       /* border: solid 1px rgba(41, 41, 41, 0.809); */
+       margin-right: auto;
+   }
+   
+   .disflex {
+       display: flex;
+       font-family: "prof";
+       /* background-color: blue; */
+   }
+   
+   .btn1 {
+       background-color: white;
+       outline: none;
+       border-radius: 5px;
+       border: solid 1px rgba(27, 27, 27, 0.219);
+   }
+   
+   .btn1.acti {
+       background-color: rgb(13, 0, 194);
+       color: white;
+   }
+   
+   .btn1:hover {
+       background-color: rgb(231, 231, 231);
+       outline: none;
+       border-radius: 5px;
+       border: solid 1px rgba(27, 27, 27, 0.219);
+   }
+   
+   .btn1.acti:hover {
+       background-color: rgb(0, 26, 255);
+       color: white;
+   }
+   
+   .btn1:active {
+       background-color: rgb(204, 204, 204);
+       outline: none;
+       border-radius: 5px;
+       border: solid 1px rgba(27, 27, 27, 0.219);
+   }
+   
+   .btn1.acti:active {
+       background-color: rgb(0, 19, 185);
+       color: white;
+   }

@@ -1,0 +1,101 @@
+.silbtn {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+}
+
+.silbtn:hover {
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.silbtn:active {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    box-shadow: none;
+}
+
+.redbtn {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+}
+
+.redbtn:hover {
+    background-color: rgb(247, 0, 0);
+    color: white;
+}
+
+.redbtn:active {
+    background-color: rgb(175, 0, 0);
+    color: white;
+    box-shadow: none;
+}
+
+.greenbtn {
+    background-color: rgb(17, 207, 0);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+}
+
+.greenbtn:hover {
+    background-color: rgb(29, 247, 0);
+    color: white;
+}
+
+.greenbtn:active {
+    background-color: rgb(0, 175, 29);
+    color: white;
+    box-shadow: none;
+}
+
+.sendbtnmasg {
+    width: 70px;
+}
+
+@media (min-width:776px) {
+    .sendbtnmasg {
+        width: 100px;
+    }
+}
+
+.msgcontentbox {
+    min-height: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+@media (min-width:768px) {
+    .msgcontentbox {
+        min-height: 400px;
+        max-height: 400px;
+    }
+}
+
+.bluco {
+    background-color: rgb(0, 0, 207);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+    font-size: 18px;
+}
+
+.bluco:hover {
+    background-color: blue;
+    color: white;
+}
+
+.bluco:active {
+    background-color: rgb(0, 0, 141);
+    color: white;
+    box-shadow: none;
+}
+
+.nomsgbox {
+    background-image: url("appimg//chat.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+.divimg {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.backrow {
+    background-color: rgb(0, 0, 230);
+}
+
+@font-face {
+    font-family: "bhs";
+    src: url("fonts//ARIALNOVA.TTF");
+}
+
+.foncurior * {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.leftborder {
+    border-left: solid 5px rgb(0, 0, 230);
+}
+
+.trborder {
+    border-top: solid 1.1px black;
+}

@@ -1,0 +1,105 @@
+.btn:focus {
+    border: none;
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+    outline: none;
+    transition: 500ms;
+}
+
+.silverco {
+    background-color: rgb(0, 0, 214);
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.233);
+}
+
+.silverco:hover {
+    color: white;
+    background-color: blue;
+}
+
+.silverco:active {
+    color: white;
+    background-color: rgb(1, 1, 187);
+    box-shadow: none;
+}
+
+.tabpain .active {
+    color: black;
+    background-color: white;
+}
+
+.tabpain .active:hover {
+    color: black;
+    background-color: white;
+}
+
+.tabpain .active:active {
+    color: black;
+    background-color: rgb(223, 223, 223);
+}
+
+.wishcard {
+    /* height: 200px; */
+    /* background-color: aquamarine; */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.212);
+    background-color: white;
+}
+
+.detailswish {
+    width: fit-content;
+}
+
+.detailswish td {
+    min-width: 100px;
+    /* padding-left: 20px; */
+}
+
+.silever {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    box-shadow: 0px 5px 8px 0px rgba(34, 34, 34, 0.233);
+}
+
+.silever:hover {
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+
+.silever:active {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    box-shadow: none;
+}
+
+.bluco-border:focus {
+    border: solid 1px rgb(0, 0, 214);
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+}
+
+.bluco-border {
+    border: solid 1px rgb(0, 0, 214);
+    box-shadow: 0px 5px 10px 0px rgba(34, 34, 34, 0.315);
+}
+
+.bluco-border:hover {
+    border: solid 1px rgb(0, 0, 214);
+}
+
+.bluco-border:active {
+    border: solid 1px rgb(0, 0, 214);
+    background-color: rgb(231, 231, 231);
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-close {
+    background-image: none;
+    font-size: 20px;
+    display: flex;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
